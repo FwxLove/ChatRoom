@@ -1,0 +1,46 @@
+﻿RakNet_x64d.lib(RakNetTypes.obj) : error LNK2019: 无法解析的外部符号 __imp_htonl，该符号在函数 "public: bool __cdecl RakNet::SystemAddress::IsLoopback(void)const " (?IsLoopback@SystemAddress@RakNet@@QEBA_NXZ) 中被引用
+RakNet_x64d.lib(BitStream.obj) : error LNK2001: 无法解析的外部符号 __imp_htonl
+RakNet_x64d.lib(RakNetTypes.obj) : error LNK2019: 无法解析的外部符号 __imp_htons，该符号在函数 "public: bool __cdecl RakNet::SystemAddress::FromStringExplicitPort(char const *,unsigned short,int)" (?FromStringExplicitPort@SystemAddress@RakNet@@QEAA_NPEBDGH@Z) 中被引用
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2001: 无法解析的外部符号 __imp_htons
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_htons
+RakNet_x64d.lib(RakNetTypes.obj) : error LNK2019: 无法解析的外部符号 __imp_inet_addr，该符号在函数 "public: bool __cdecl RakNet::SystemAddress::SetBinaryAddress(char const *,char)" (?SetBinaryAddress@SystemAddress@RakNet@@QEAA_NPEBDD@Z) 中被引用
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2001: 无法解析的外部符号 __imp_inet_addr
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_inet_addr
+RakNet_x64d.lib(RakNetTypes.obj) : error LNK2019: 无法解析的外部符号 __imp_inet_ntoa，该符号在函数 "public: void __cdecl RakNet::SystemAddress::ToString_Old(bool,char *,char)const " (?ToString_Old@SystemAddress@RakNet@@QEBAX_NPEADD@Z) 中被引用
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2001: 无法解析的外部符号 __imp_inet_ntoa
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2001: 无法解析的外部符号 __imp_inet_ntoa
+RakNet_x64d.lib(RakNetTypes.obj) : error LNK2019: 无法解析的外部符号 __imp_ntohs，该符号在函数 "public: bool __cdecl RakNet::SystemAddress::FromStringExplicitPort(char const *,unsigned short,int)" (?FromStringExplicitPort@SystemAddress@RakNet@@QEAA_NPEBDGH@Z) 中被引用
+RakNet_x64d.lib(RakPeer.obj) : error LNK2001: 无法解析的外部符号 __imp_ntohs
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_bind，该符号在函数 "protected: enum RakNet::RNS2BindResult __cdecl RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IEAA?AW4RNS2BindResult@2@PEAURNS2_BerkleyBindParameters@2@PEBDI@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_bind
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_closesocket，该符号在函数 "public: virtual __cdecl RakNet::RNS2_Berkley::~RNS2_Berkley(void)" (??1RNS2_Berkley@RakNet@@UEAA@XZ) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_closesocket
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_ioctlsocket，该符号在函数 "protected: void __cdecl RakNet::RNS2_Berkley::SetNonBlockingSocket(unsigned long)" (?SetNonBlockingSocket@RNS2_Berkley@RakNet@@IEAAXK@Z) 中被引用
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2001: 无法解析的外部符号 __imp_ioctlsocket
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_getsockname，该符号在函数 "protected: static void __cdecl RakNet::RNS2_Berkley::GetSystemAddressIPV4(int,struct RakNet::SystemAddress *)" (?GetSystemAddressIPV4@RNS2_Berkley@RakNet@@KAXHPEAUSystemAddress@2@@Z) 中被引用
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2001: 无法解析的外部符号 __imp_getsockname
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_getsockopt，该符号在函数 "protected: static int __cdecl RakNet::RNS2_Windows_Linux_360::Send_Windows_Linux_360NoVDP(int,struct RakNet::RNS2_SendParameters *,char const *,unsigned int)" (?Send_Windows_Linux_360NoVDP@RNS2_Windows_Linux_360@RakNet@@KAHHPEAURNS2_SendParameters@2@PEBDI@Z) 中被引用
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_recvfrom，该符号在函数 "protected: void __cdecl RakNet::RNS2_Berkley::RecvFromBlockingIPV4(struct RakNet::RNS2RecvStruct *)" (?RecvFromBlockingIPV4@RNS2_Berkley@RakNet@@IEAAXPEAURNS2RecvStruct@2@@Z) 中被引用
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_sendto，该符号在函数 "protected: static int __cdecl RakNet::RNS2_Windows_Linux_360::Send_Windows_Linux_360NoVDP(int,struct RakNet::RNS2_SendParameters *,char const *,unsigned int)" (?Send_Windows_Linux_360NoVDP@RNS2_Windows_Linux_360@RakNet@@KAHHPEAURNS2_SendParameters@2@PEBDI@Z) 中被引用
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_setsockopt，该符号在函数 "public: void __cdecl RakNet::RNS2_Berkley::SetDoNotFragment(int)" (?SetDoNotFragment@RNS2_Berkley@RakNet@@QEAAXH@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_setsockopt
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2001: 无法解析的外部符号 __imp_setsockopt
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_socket，该符号在函数 "protected: enum RakNet::RNS2BindResult __cdecl RakNet::RNS2_Berkley::BindSharedIPV4(struct RakNet::RNS2_BerkleyBindParameters *,char const *,unsigned int)" (?BindSharedIPV4@RNS2_Berkley@RakNet@@IEAA?AW4RNS2BindResult@2@PEAURNS2_BerkleyBindParameters@2@PEBDI@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_socket
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_gethostbyname，该符号在函数 "void __cdecl GetMyIP_Windows_Linux_IPV4(struct RakNet::SystemAddress * const)" (?GetMyIP_Windows_Linux_IPV4@@YAXQEAUSystemAddress@RakNet@@@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2001: 无法解析的外部符号 __imp_gethostbyname
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2001: 无法解析的外部符号 __imp_gethostbyname
+RakNet_x64d.lib(RakNetSocket2.obj) : error LNK2019: 无法解析的外部符号 __imp_gethostname，该符号在函数 "void __cdecl GetMyIP_Windows_Linux_IPV4(struct RakNet::SystemAddress * const)" (?GetMyIP_Windows_Linux_IPV4@@YAXQEAUSystemAddress@RakNet@@@Z) 中被引用
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2001: 无法解析的外部符号 __imp_gethostname
+RakNet_x64d.lib(WSAStartupSingleton.obj) : error LNK2019: 无法解析的外部符号 __imp_WSAStartup，该符号在函数 "public: static void __cdecl WSAStartupSingleton::AddRef(void)" (?AddRef@WSAStartupSingleton@@SAXXZ) 中被引用
+RakNet_x64d.lib(WSAStartupSingleton.obj) : error LNK2019: 无法解析的外部符号 __imp_WSACleanup，该符号在函数 "public: static void __cdecl WSAStartupSingleton::Deref(void)" (?Deref@WSAStartupSingleton@@SAXXZ) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __WSAFDIsSet，该符号在函数 "unsigned int __cdecl RakNet::UpdateTCPInterfaceLoop(void *)" (?UpdateTCPInterfaceLoop@RakNet@@YAIPEAX@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_accept，该符号在函数 "unsigned int __cdecl RakNet::UpdateTCPInterfaceLoop(void *)" (?UpdateTCPInterfaceLoop@RakNet@@YAIPEAX@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_connect，该符号在函数 "protected: unsigned __int64 __cdecl RakNet::TCPInterface::SocketConnect(char const *,unsigned short,unsigned short,char const *)" (?SocketConnect@TCPInterface@RakNet@@IEAA_KPEBDGG0@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_listen，该符号在函数 "protected: bool __cdecl RakNet::TCPInterface::CreateListenSocket(unsigned short,unsigned short,unsigned short,char const *)" (?CreateListenSocket@TCPInterface@RakNet@@IEAA_NGGGPEBD@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_recv，该符号在函数 "public: int __cdecl RakNet::RemoteClient::Recv(char *,int)" (?Recv@RemoteClient@RakNet@@QEAAHPEADH@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_select，该符号在函数 "unsigned int __cdecl RakNet::UpdateTCPInterfaceLoop(void *)" (?UpdateTCPInterfaceLoop@RakNet@@YAIPEAX@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_send，该符号在函数 "public: int __cdecl RakNet::RemoteClient::Send(char const *,unsigned int)" (?Send@RemoteClient@RakNet@@QEAAHPEBDI@Z) 中被引用
+RakNet_x64d.lib(TCPInterface.obj) : error LNK2019: 无法解析的外部符号 __imp_shutdown，该符号在函数 "public: void __cdecl RakNet::TCPInterface::Stop(void)" (?Stop@TCPInterface@RakNet@@QEAAXXZ) 中被引用
+RakNet_x64d.lib(SocketLayer.obj) : error LNK2019: 无法解析的外部符号 __imp_WSAIoctl，该符号在函数 "public: static class RakNet::RakString __cdecl RakNet::SocketLayer::GetSubNetForSocketAndIp(unsigned __int64,class RakNet::RakString)" (?GetSubNetForSocketAndIp@SocketLayer@RakNet@@SA?AVRakString@2@_KV32@@Z) 中被引用
+E:\raknet\server\client\x64\Debug\client.exe : fatal error LNK1120: 27 个无法解析的外部命令
