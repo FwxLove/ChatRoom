@@ -67,7 +67,6 @@ void NetMgr::net_work_update() const
 		case ID_REMOTE_NEW_INCOMING_CONNECTION:
 			std::cout << "Another client has connected" << std::endl;
 			break;
-			//client连接上server后会触发
 		case ID_CONNECTION_REQUEST_ACCEPTED:
 			std::cout << "Our connection request has been accepted for server" << std::endl;
 			break;
